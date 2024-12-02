@@ -3,7 +3,7 @@ import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import axios from "axios";
 import RegisterModal from "../../Components/Forms/User/RegisterModal";
 
-const Form = () => {
+const RigesterPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
     user_username: "",
@@ -143,10 +143,10 @@ const Form = () => {
             </a>
             <p>لديك بالفعل حساب؟</p>
           </div>
-        </form>
+        </form> 
       </div>
     </section>
   );
 };
 
-export default Form;
+export default RigesterPage;

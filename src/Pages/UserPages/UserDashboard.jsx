@@ -4,7 +4,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import ProjectDetails from "../Components/UserDshboard/ProjectDetails";
 import YourTime from "../Components/UserDshboard/YourTime";
 import Chat from "./Chat";
-function UserControl() {
+function UserDashboard() {
   const cards = [
     {
       title: "البريد الإلكتروني",
@@ -139,4 +139,4 @@ function UserControl() {
   );
 }
 
-export default UserControl;
+export default UserDashboard;

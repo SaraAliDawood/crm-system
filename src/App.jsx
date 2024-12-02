@@ -7,6 +7,8 @@ import CustomerPage from "./Pages/AdminPages/CustomersPage";
 import AdminTicketsPage from "./Pages/AdminPages/AdminTicketsPage";
 import AdminDashboardPage from "./Pages/AdminPages/AdminDashboardPage";
 import AdminChatPage from "./Pages/AdminPages/AdminChatPage";
+import RigesterPage from "./Pages/UserPages/RegisterPage";
+
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/customers" element={<CustomerPage />} />
         <Route path="/tickets" element={<AdminTicketsPage />} />
         <Route path="/chat" element={<AdminChatPage />} />
+        <Route path="/register" element={<RigesterPage />} />
+        <Route path="/user" element={<AdminSignINPage/>} />
       </Routes>
     </div>
   );
