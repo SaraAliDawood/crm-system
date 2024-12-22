@@ -5,7 +5,7 @@ import { FaRegUser } from "react-icons/fa";
 import { FaRegNoteSticky } from "react-icons/fa6";
 import { IoTimeOutline } from "react-icons/io5";
 import { CiChat1 } from "react-icons/ci";
-import { PiSignOut } from "react-icons/pi";
+// import { PiSignOut } from "react-icons/pi";
 import { FiMenu } from "react-icons/fi"; // Menu icon for mobile
 import { NavLink } from "react-router-dom";
 
@@ -81,9 +81,9 @@ const SideBar = () => {
               <span> eric@frusciante.com </span>
             </div>
           </a>
-          <span className="text-2xl text-red-400 cursor-pointer hover:text-red-700">
+          {/* <span className="text-2xl text-red-400 cursor-pointer hover:text-red-700">
             <PiSignOut />
-          </span>
+          </span> */}
         </div>
       </div>
 
